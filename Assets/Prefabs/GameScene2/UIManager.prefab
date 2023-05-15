@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2825213706099688735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2825213706099688721}
+  - component: {fileID: 2825213706099688734}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2825213706099688721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2825213706099688735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 711.8464, y: 481.44708, z: -97.02537}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2825213706099688734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2825213706099688735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40c329e74a4c7c489966bb7f5cb38f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simultaneousEquation1: {fileID: 0}
+  simultaneousEquation2: {fileID: 0}
+  answerText: {fileID: 0}
+  answerTextPrefab: {fileID: 3788617396447195594, guid: 47bcafe1568f4df49a97b8919dce7edd, type: 3}
+  a: 0
+  b: 0
+  c: 0
+  d: 0
+  e: 0
+  f: 0
+  sumCalculated: 0
+  sumAnswered: 0
+  answerLocations:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  canvas: {fileID: 0}
+  correctAnswer: {fileID: 0}
+  wrongAnswer1: {fileID: 0}
+  wrongAnswer2: {fileID: 0}
+  answerCorrectIncorrectStatus: {fileID: 0}
+  isMainScreen: 1
+  isGameScreen: 0
+  isTutorialScreen: 0
+  mainSection: {fileID: 0}
+  tutorialSection: {fileID: 0}
+  type1Section: {fileID: 0}
+  type2Section: {fileID: 0}
+  type3Section: {fileID: 0}
+  type4Section: {fileID: 0}
+  type5Section: {fileID: 0}
+  type1SubSectionButtons: {fileID: 0}
+  type4SubSectionButtons: {fileID: 0}
+  tutorialType1: 0
+  tutorialType2: 0
+  tutorialType3: 0
+  tutorialType4: 0
+  tutorialType5: 0
+  tutorialType1_1: 0
+  tutorialType1_2: 0
+  tutorialType4_1: 0
+  tutorialType4_2: 0
+  tutorialType4_3: 0
+  tutorialType4_4: 0
+  tutorialType4_5: 0
+  tutorialType4_6: 0
+  tutorialType4_7: 0
+  tutorialType4_8: 0
+  valueLettersChangeButton: {fileID: 0}
+  tutorialTextPart1: {fileID: 0}
+  tutorialTextPart2: {fileID: 0}
+  typeDescription: {fileID: 0}
+  startButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  tutorialTypeButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  titleText: {fileID: 0}
+  isReachedMaxColor: 0
+  scene:
+    m_Handle: 0
+  handBoard: {fileID: 0}
+  tutorialHandBoard: {fileID: 0}
+  isCorrectRed: 0
+  isCorrectBlue: 0
+  isCorrectGreen: 0
+  isWrongOneRed: 0
+  isWrongOneBlue: 0
+  isWrongOneGreen: 0
+  isWrongTwoRed: 0
+  isWrongTwoBlue: 0
+  isWrongTwoGreen: 0
+  gameManager: {fileID: 0}
+  answerStatus: {fileID: 0}
+  examplesText: {fileID: 0}
+  isExamplesOpen: 0
+  healthBarRed: {fileID: 0}
+  maxHealthBarImageHeight: 80.48
+  currentHealthBarImageHeight: 0
+  sumCount: 0
+  additionMessageText: {fileID: 0}
+  subtractionMessageText: {fileID: 0}
+  multiplicationMessageText: {fileID: 0}
+  divisionMessageText: {fileID: 0}
+  equalMessageText: {fileID: 0}
+  additionStatus: 0
+  subtractionStatus: 0
+  multiplicationStatus: 0
+  divisionStatus: 0
+  equalStatus: 0
+  multiplyByText: {fileID: 0}
+  multiplyValue: 0
+  divideByText: {fileID: 0}
+  divideValue: 0

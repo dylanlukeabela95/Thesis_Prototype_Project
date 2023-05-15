@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5269487416797181586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5269487416797181584}
+  - component: {fileID: 5269487416797181585}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5269487416797181584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5269487416797181586}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.13511828, y: 1.1059113, z: 2.8573244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5269487416797181585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5269487416797181586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a49dbf921e2f304b8eba270a7391057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiManager: {fileID: 0}
+  correctAnswers: 0
+  incorrectAnswers: 0
+  cubeAnswerSpawns:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  cubeAnswerObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  answerCube: {fileID: 8315493759212740001, guid: f5f6f2a9b4aa2e843945a68b017452eb, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 0901b401027ccf042a1d0707e1263fdf, type: 2}
+  - {fileID: 2100000, guid: ece93232c3c4d374692b6163858d1ed3, type: 2}
+  - {fileID: 2100000, guid: 32e2599fa00322640a13d4b56c80487f, type: 2}
+  cube1: {fileID: 0}
+  cube2: {fileID: 0}
+  cube3: {fileID: 0}
+  maxHealth: 0
+  currentHealth: 0
+  canHitCube: 1
+  canHitCubeTimer: 1
+  locomotionSystem: {fileID: 0}
+  questionCube: {fileID: 5899493079469758644, guid: a6ad66a08280350468e2d652cb235ca7, type: 3}
+  questionCubes: []
+  spawnLocations:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  isDoorOpen: 0
+  questionNumber: 1
+  xFoundValue: 
+  yFoundValue: 
+  clearWhiteboard: 0
+  cubesAddRoomGameObject: []
+  cubesSubRoomGameObject: []
+  cubesMulRoomGameObject: []
+  cubesDivRoomGameObject: []
+  cubesEqualRoomGameObject: []
+  subtractionCubeSpawn:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  materialArray:
+  - {fileID: 2100000, guid: e664863ba315ad24cb452bf2334833b9, type: 2}
+  - {fileID: 2100000, guid: ece93232c3c4d374692b6163858d1ed3, type: 2}
+  - {fileID: 2100000, guid: 6e769838fdb6b4e49ac0eebfdce095f1, type: 2}
+  - {fileID: 2100000, guid: 32e2599fa00322640a13d4b56c80487f, type: 2}
+  - {fileID: 2100000, guid: 1879d73e0a00e50468e456019b055929, type: 2}
+  - {fileID: 2100000, guid: 0901b401027ccf042a1d0707e1263fdf, type: 2}
+  - {fileID: 2100000, guid: 61a997a80b665444199f1487e1b2d82a, type: 2}
+  - {fileID: 2100000, guid: 26e429f12a400be43ac6d10869c9538c, type: 2}
+  colorChosen: 0
+  textPlaced: 0
+  colorChosenList: 000000000000000000000000
+  xEnabled: 0
+  yEnabled: 0
+  additionPerformed: 0
+  subtractionPerformed: 0
+  multiplicationPerformed: 0
+  divisionPerformed: 0
+  equalPerformed: 0
+  correctAnswerPodX: 0
+  correctAnswerPodY: 0
